@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">frameroid</string>
+
+    <string name="farvardin">فروردین</string>
+    <string name="ordibehesht">اردیبهشت</string>
+    <string name="khordad">خرداد</string>
+    <string name="tir">تیر</string>
+    <string name="mordad">مرداد</string>
+    <string name="shahrivar">شهریور</string>
+    <string name="mehr">مهر</string>
+    <string name="aban">آبان</string>
+    <string name="azar">آذر</string>
+    <string name="dey">دی</string>
+    <string name="bahman">بهمن</string>
+    <string name="esfand">اسفند</string>
+
+    <string-array name="persian_month">
+        <item>@string/farvardin</item>
+        <item>@string/ordibehesht</item>
+        <item>@string/khordad</item>
+        <item>@string/tir</item>
+        <item>@string/mordad</item>
+        <item>@string/shahrivar</item>
+        <item>@string/mehr</item>
+        <item>@string/aban</item>
+        <item>@string/azar</item>
+        <item>@string/dey</item>
+        <item>@string/bahman</item>
+        <item>@string/esfand</item>
+    </string-array>
+
+</resources>
