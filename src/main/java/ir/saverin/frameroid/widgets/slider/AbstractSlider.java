@@ -18,7 +18,7 @@ import static ir.saverin.frameroid.util.Scaler.scale;
  * An abstraction over {@link Slider} which aims to hide boiler plate code from slider logic.
  * This class contains
  *
- * @author <a mailto:fahim.ayat@gmail.com>Fahim Ayat</a>
+ * @author S.Hosein Ayat
  */
 public abstract class AbstractSlider<T extends LoadableImage> extends SoundPlayerSprite implements Slider<T>, WidgetContainer<T> {
 

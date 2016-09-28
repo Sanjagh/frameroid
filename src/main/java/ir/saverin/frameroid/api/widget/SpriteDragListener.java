@@ -1,7 +1,7 @@
 package ir.saverin.frameroid.api.widget;
 
 /**
- * @author <a mailto:fahim.ayat@gmail.com>Fahim.Ayat@gmail.com</a>
+ * @author S.Hosein Ayat
  */
 public interface SpriteDragListener<T extends Sprite> {
 

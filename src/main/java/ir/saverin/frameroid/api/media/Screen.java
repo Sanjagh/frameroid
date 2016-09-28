@@ -3,7 +3,7 @@ package ir.saverin.frameroid.api.media;
 /**
  * Base interface to manage a screen.
  *
- * @author Fahim Ayat <fahim.ayat@gmail.com>
+ * @author S.Hosein Ayat
  */
 public interface Screen {
 

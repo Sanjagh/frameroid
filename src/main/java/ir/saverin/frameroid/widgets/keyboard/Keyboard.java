@@ -16,7 +16,7 @@ import static ir.saverin.frameroid.util.Scaler.scale;
 import static ir.saverin.frameroid.util.Scaler.unscale;
 
 /**
- * @author <a mailto:fahim.ayat@gmail.com>Fahim Ayat</a>
+ * @author S.Hosein Ayat
  */
 public abstract class Keyboard extends SoundPlayerSprite implements TouchEventListener, LoadableImage {
 

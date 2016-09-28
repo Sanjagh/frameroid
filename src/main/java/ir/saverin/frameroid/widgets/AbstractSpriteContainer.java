@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author <a mailto:fahim.ayat@gmail.com>Fahim.Ayat@gmail.com</a>
+ * @author S.Hosein Ayat
  */
 public abstract class AbstractSpriteContainer<T extends Sprite> implements WidgetContainer<T> {
 

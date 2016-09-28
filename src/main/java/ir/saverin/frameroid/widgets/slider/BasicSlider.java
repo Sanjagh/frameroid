@@ -14,7 +14,7 @@ import ir.saverin.frameroid.widgets.LoadableImage;
 /**
  * Basic implementation of {@link Slider} which contains basic logic and rendering.
  *
- * @author <a mailto:fahim.ayat@gmail.com>Fahim Ayat</a>
+ * @author S.Hosein Ayat
  */
 public class BasicSlider<T extends LoadableImage> extends AbstractSlider<T> {
 

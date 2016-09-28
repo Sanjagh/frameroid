@@ -3,7 +3,7 @@ package ir.saverin.frameroid.util;
 import ir.saverin.frameroid.api.ScreenSize;
 
 /**
- * @author <a mailto:fahim.ayat@gmail.com>Fahim Ayat</a>
+ * @author S.Hosein Ayat
  */
 public final class Scaler {
 

@@ -1,7 +1,7 @@
 package ir.saverin.frameroid.api.widget;
 
 /**
- * @author <a mailto:fahim.ayat@gmail.com>Fahim.Ayat@gmail.com</a>
+ * @author S.Hosein Ayat
  */
 public interface SpriteClickListener<T extends Sprite> {
     public void widgetDown(T t, float x, float y, int index);

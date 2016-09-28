@@ -4,7 +4,7 @@ import ir.saverin.frameroid.util.Pointer;
 import ir.saverin.frameroid.util.TouchEventListener;
 
 /**
- * @author <a mailto:fahim.ayat@gmail.com>Fahim.Ayat@gmail.com</a>
+ * @author S.Hosein Ayat
  */
 public interface TouchHandler {
     int getMaxPointers();

@@ -8,7 +8,7 @@ import ir.saverin.frameroid.api.util.FileResource;
 import java.io.IOException;
 
 /**
- * @author <a mailto:fahim.ayat@gmail.com>Fahim.Ayat@gmail.com</a>
+ * @author S.Hosein Ayat
  */
 public class ResourceHelper {
 

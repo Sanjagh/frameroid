@@ -5,7 +5,7 @@ import ir.saverin.frameroid.util.TouchEventListener;
 import ir.saverin.frameroid.widgets.LoadableImage;
 
 /**
- * @author <a mailto:fahim.ayat@gmail.com>Fahim Ayat</a>
+ * @author S.Hosein Ayat
  */
 public interface KeyboardManager extends LoadableImage, TouchEventListener {
 

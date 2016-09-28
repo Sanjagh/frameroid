@@ -9,7 +9,7 @@ import ir.saverin.frameroid.util.GeneralConfig;
 import static ir.saverin.frameroid.util.Scaler.scale;
 
 /**
- * @author <a mailto:fahim.ayat@gmail.com>Fahim Ayat</a>
+ * @author S.Hosein Ayat
  */
 public class DummySprite extends SoundPlayerSprite implements Sprite {
 

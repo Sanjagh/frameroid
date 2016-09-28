@@ -11,7 +11,7 @@ import java.io.IOException;
  * <p/>
  * Created by fahim on 2/18/15.
  *
- * @author <a href="mailto:fahim.ayat@gmail.com">Fahim Ayat</a>
+ * @author S.Hosein Ayat
  */
 public class VoiceRecorder {
 

@@ -8,7 +8,7 @@ import ir.saverin.frameroid.api.util.FileResource;
 import ir.saverin.frameroid.resource.ResourceHelper;
 
 /**
- * @author <a mailto:fahim.ayat@gmail.com>Fahim Ayat</a>
+ * @author S.Hosein Ayat
  */
 public class ImageSprite extends SoundPlayerSprite implements LoadableImage {
     private static final String TAG = ImageSprite.class.getName();

@@ -3,7 +3,7 @@ package ir.saverin.frameroid.widgets;
 import ir.saverin.frameroid.api.media.Graphics;
 
 /**
- * @author <a mailto:fahim.ayat@gmail.com>Fahim.Ayat@gmail.com</a>
+ * @author S.Hosein Ayat
  */
 public class SimpleSprite extends SoundPlayerSprite {
 

@@ -1,7 +1,7 @@
 package ir.saverin.frameroid.util;
 
 /**
- * @author <a mailto:fahim.ayat@gmail.com>Fahim.Ayat@gmail.com</a>
+ * @author S.Hosein Ayat
  */
 public interface TouchEventListener {
 

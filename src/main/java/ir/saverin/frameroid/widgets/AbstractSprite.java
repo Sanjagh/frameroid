@@ -3,7 +3,7 @@ package ir.saverin.frameroid.widgets;
 import ir.saverin.frameroid.api.widget.Sprite;
 
 /**
- * @author <a mailto:fahim.ayat@gmail.com>Fahim.Ayat@gmail.com</a>
+ * @author S.Hosein Ayat
  */
 public abstract class AbstractSprite implements Sprite {
 

@@ -6,7 +6,7 @@ import ir.saverin.frameroid.api.media.Graphics;
 import java.util.List;
 
 /**
- * @author <a mailto:fahim.ayat@gmail.com>Fahim.Ayat@gmail.com</a>
+ * @author S.Hosein Ayat
  */
 public interface WidgetContainer<T extends Sprite> {
 

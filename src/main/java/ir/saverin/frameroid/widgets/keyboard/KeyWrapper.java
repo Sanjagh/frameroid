@@ -3,7 +3,7 @@ package ir.saverin.frameroid.widgets.keyboard;
 import android.graphics.Point;
 
 /**
- * @author <a mailto:fahim.ayat@gmail.com>Fahim Ayat</a>
+ * @author S.Hosein Ayat
  */
 public class KeyWrapper {
 

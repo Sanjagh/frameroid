@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author <a mailto:fahim.ayat@gmail.com>Fahim Ayat</a>
+ * @author S.Hosein Ayat
  */
 public class BasicKeyboardManager extends SoundPlayerSprite implements KeyboardManager, KeyboardActionListener {
 

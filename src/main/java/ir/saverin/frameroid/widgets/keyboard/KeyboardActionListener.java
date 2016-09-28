@@ -3,7 +3,7 @@ package ir.saverin.frameroid.widgets.keyboard;
 /**
  * This interface is added to any keyboard to monitor it's behaviour.
  *
- * @author <a mailto:fahim.ayat@gmail.com>Fahim Ayat</a>
+ * @author S.Hosein Ayat
  */
 public interface KeyboardActionListener {
 

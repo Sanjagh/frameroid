@@ -5,7 +5,7 @@ import ir.saverin.frameroid.api.media.Graphics;
 /**
  * Base widget class in frameroid.
  *
- * @author <a mailto:fahim.ayat@gmail.com>Fahim.Ayat@gmail.com</a>
+ * @author S.Hosein Ayat
  */
 public interface Sprite {
 

@@ -5,7 +5,7 @@ import ir.saverin.frameroid.api.widget.Sprite;
 import ir.saverin.frameroid.util.sound.SoundPlayer;
 
 /**
- * @author <a mailto:fahim.ayat@gmail.com>Fahim.Ayat@gmail.com</a>
+ * @author S.Hosein Ayat
  */
 public abstract class SoundPlayerSprite extends AbstractSprite implements Sprite {
 
