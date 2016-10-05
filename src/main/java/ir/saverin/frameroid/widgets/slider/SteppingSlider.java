@@ -6,7 +6,7 @@ import ir.saverin.frameroid.widgets.LoadableImage;
 /**
  * Created by fahim on 3/10/15.
  *
- * @author S.Hosein Ayat
+ * @author <a href="mailto:fahim.ayat@gmail.com">Fahim Ayat</a>
  */
 public class SteppingSlider<T extends LoadableImage> extends BasicSlider<T> {
 

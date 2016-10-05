@@ -7,7 +7,7 @@ apply plugin: 'maven'
 
 group = 'ir.saverin.kafshdoozak'
 version = '0.0.1-SNAPSHOT'
-
+def artifact_id = 'fraimeroid'
 
 
 buildscript {
@@ -32,9 +32,6 @@ allprojects {
         jcenter()
     }
 }
-
-
-
 
 
 android {
@@ -72,44 +69,59 @@ repositories {
         name "ossrh"
     }
 }
-publishing {
+/*publishing {
     publications {
         aar(MavenPublication) {
-            groupId = 'ir.saverin.kafshdoozak'
-            version = '0.0.1-SNAPSHOT'
-            artifactId 'fraimroid'
+            groupId = project.getGroup()
+            version = project.getVersion()
+            artifactId = project.getName()
 
             // Tell maven to prepare the generated "*.aar" file for publishing
             artifact("$buildDir/outputs/aar/${project.getName()}-release.aar")
+            artifact("$buildDir/libs/${project.getName()}-${project.getVersion()}-javadoc.jar")
+            artifact("$buildDir/libs/${project.getName()}-${project.getVersion()}-sources.jar")
+
+
         }
     }
 
+    *//* repositories {
+         maven {
+             // change to point to your repo, e.g. http://my.org/repo
+             url "https://oss.sonatype.org/content/repositories/snapshots"
+             name "ossrh"
+         }
+     }*//*
+}*/
 
-   /* repositories {
-        maven {
-            // change to point to your repo, e.g. http://my.org/repo
-            url "https://oss.sonatype.org/content/repositories/snapshots"
-            name "ossrh"
-        }
-    }*/
-}
-
-
+def publishToRemote = false
 uploadArchives {
     repositories {
-        mavenDeployer {
-            repository(url: "https://oss.sonatype.org/content/repositories/snapshots") {
-                authentication(userName: "kafshdoozaktoons", password: "kafshsaverinhooshmand")
+        if (publishToRemote) {
+            mavenDeployer {
+                repository(url: "https://oss.sonatype.org/content/repositories/snapshots") {
+                    authentication(userName: "kafshdoozaktoons", password: "kafshsaverinhooshmand")
+                }
+                pom.version = project.getVersion()
+                pom.artifactId = project.getName()
+                pom.groupId = project.getGroup()
             }
-            pom.version = "0.0.1-SNAPSHOT"
-            pom.artifactId = "fraimroid"
-            pom.groupId = "ir.saverin.kafshdoozak"
+        }
+        mavenInstaller {
+            pom.groupId = rootProject.group
+            pom.artifactId = project.name
+            pom.version = rootProject.version
         }
     }
 }
 
-
-
+/*
+task javadoc(type: Javadoc) {
+    source = android.sourceSets.main.java.srcDirs
+    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
+    destinationDir = file("../javadoc/")
+    failOnError false
+}*/
 
 task androidJavadocs(type: Javadoc) {
     source = android.sourceSets.main.java.srcDirs
@@ -117,13 +129,13 @@ task androidJavadocs(type: Javadoc) {
 
 task androidJavadocsJar(type: Jar) {
     classifier = 'javadoc'
-    baseName = "fraimroid"
+    baseName = project.getName()
     from androidJavadocs.destinationDir
 }
 
 task androidSourcesJar(type: Jar) {
     classifier = 'sources'
-    baseName = "fraimroid"
+    baseName = project.getName()
     from android.sourceSets.main.java.srcDirs
 }
 
@@ -132,7 +144,6 @@ artifacts {
     archives androidSourcesJar
     archives androidJavadocsJar
 }
-
 
 
 

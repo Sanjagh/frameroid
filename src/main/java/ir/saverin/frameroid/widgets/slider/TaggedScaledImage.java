@@ -6,7 +6,7 @@ import ir.saverin.frameroid.widgets.ScaledImageSprite;
 /**
  * Created by fahim on 3/10/15.
  *
- * @author S.Hosein Ayat
+ * @author <a href="mailto:fahim.ayat@gmail.com">Fahim Ayat</a>
  */
 
 public class TaggedScaledImage<T> extends ScaledImageSprite {
