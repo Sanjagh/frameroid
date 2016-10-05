@@ -94,13 +94,14 @@ repositories {
      }*//*
 }*/
 
+//if you want to publish to remote repo, set this flag to true and set username and password
 def publishToRemote = false
 uploadArchives {
     repositories {
         if (publishToRemote) {
             mavenDeployer {
                 repository(url: "https://oss.sonatype.org/content/repositories/snapshots") {
-                    authentication(userName: "kafshdoozaktoons", password: "kafshsaverinhooshmand")
+                    authentication(userName: "", password: "")
                 }
                 pom.version = project.getVersion()
                 pom.artifactId = project.getName()
